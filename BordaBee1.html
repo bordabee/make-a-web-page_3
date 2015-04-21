@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adriana's Notes</title>
+	<link rel="stylesheet" type="text/css" href="BordaBee1.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+	<h1>Important Concepts</h1>
+	<div class= "lesson">
+		<h2>Lesson 1: The Basics of the Web and HTML</h2>
+  			<div class="concept">
+  				<div class="concept-title">
+          			Introduction to the Web
+          		</div>
+          		<div class="concept-description">
+          			<p>The World Wide Web is a collection of HTML documents.
+          			<br>HTML stands for <span class="italic">HyperText Markup Language</span>, this is the basis for the
+          			majority of web pages. 
+          			<br>HTML is what connects most types of documents together through hyperlinks. 
+          			HTML can be made up of text content (what you see), markup (arrangement of content), 
+          			references to other documents, and links to other pages.
+      				</p>
+        		</div>
+        	</div>
+        	<div class="concept">
+          		<div class="concept-title">
+          			Computers are Stupid
+          		</div>
+          		<div class="concept-description">
+          		<p>
+          			Programmers need to write in a language a computer understands;
+          			this way a computer can follow the instructions the programmer wrote. 
+          			<br>Therefore, in order to be precised, it is imperative to use the right syntax.
+          		</p>
+          		</div>
+        	</div>
+        	<div class="concept">
+          		<div class="concept-title">
+          			HTML Attributes
+          		</div>
+          		<div class="concept-description">
+          		<p>
+          			<span class= "italic">Anchor tags</span>: adds a link to a text or word. When clicked, it directs you to another page. <br>
+            		<span class="italic">Image tags</span>: represents an image.<br>
+            		<span class="italic">Whitespace</span>: text on multiple lines using the break tag (void tag) or the paragraph tag (not a void tag). <br>
+            		<span class="italic">Inline/Block</span>: the inline element makes the content remain in the line, while a block tag creates an invisible box. 
+            		Examples of inline tags include the anchor, span, break, image, and strong tags. While the paragraph and div tags are types of block tags.
+            	</p>  
+        		</div>
+        	</div>
+        	<div class="concept">
+        		<div class="concept-title">
+          		Document Structure
+          		</div>
+          		<div class="concept-description">
+          		<p>The basic structure of an HTML document includes:</p>
+            	   <ul class="list">
+                 <li>a DOCTYPE in the first line,</li>
+            	   <li>an opening HTML tag on the second line,</li> 
+            	   <li>an opening and closing head tags, which will include title tags,</li>
+            	   <li>an opening an closing body tags, which will include the page's content,</li>
+            	   <li>and a closing html tag.</li>
+                </ul>
+            	</div>
+        	</div>
+  </div>
+  <div class="lesson">
+    <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+        <div class="concept">
+        		<div class="concept-title">
+            	Developer Tools
+        		</div>
+        		<div class="concept-description">
+        		<p>Using a browser's developer tools, one is able to see then structure of a website's page.
+            	<br>It is worth noting that not all elements in the structure are visible in the webpage, yet all elements are rectangular.
+            	</p>
+            	</div>
+            </div>
+          	<div class="concept">
+          		<div class="concept-title">
+            	Tree-like Structure
+            	</div>
+            	<div class="concept-description">
+            	<p>The browser buildes a tree-like structure of the page. Each sideways triangle has its own opening and closing tags.
+            	</p>
+          		</div>
+          	<div class="concept">
+          		<div class="concept-title">
+            	Boxes, Everywhere!
+            	</div>
+            	<div class="concept-description">
+            	<p>Everything in HTML is a box, regardless of what shape it shows in the browser. 
+           		<br>This box can be styled into different colors and shapes.
+            	<br>Use the <span class="italic">div tag</span> to create boxes.
+            	</p>
+          		</div>
+          	</div>
+          	<div class="concept">
+          		<div class="concept-title">
+            	The Difference Between Code Editors
+            	</div>
+            	<div class="concept-description">
+            	<p>A code editor is a program designed to help programmers edit code.
+            	<br>At this level there are three code editors being compared: Scratchpad, CodePen, and Sublime.
+            	<br>Scratchpad is recommended for writing code, and CodePen for sharing with others. 
+            	</p>
+          		</div>
+      		</div>
+    	</div>
+	</div>
+  <div class= "lesson">
+		<h2>Lesson 3: Adding CSS Style and HTML Structure</h2>
+		    <div class="concept">
+            <div class="concept-title">
+              Understanding CSS
+            </div>
+            <div class="concept-description">
+              <p>CSS stands for Cascading Style Sheet and is the code that styles HTML. 
+              <br>Cascading means that most specific rule gets applied. This inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants. In general, descendant elements inherit text-related properties, but box-related properties are not inherited. Inheritance 
+              <br>Inheritance enhances faster-loading of web pages by users and enables clients to save money on bandwidth and development costs.
+              <br>There are three ways of including CSS to webpage:</p>
+                <ul class="list">
+                <li>Writing CSS in the head element of an HTML structure</li>
+                <li>Linking HTML to a separate CSS file</li> <!--This project-->
+                <li>Writing CSS inline within the HTML</li> <!--Attempting it here-->
+                </ul>
+            </div>
+          </div>
+        <div class="concept">
+            <div class="concept-title">
+              Benefits of Avoiding Repetition
+            </div>
+            <div class="concept-description">
+              <p>
+                <span class="italic">Faster Websites</span>: fewer repeated styles in CSS result in smaller file sizes, and thus faster downloading of those resources.
+                <span class="italic">Maintainable Stylesheets</span>: when making additions to an existing site, it is easier to reuse styles and making extensions based on existing rules.
+              </p>
+            </div>
+          </div>
+        <div class="concept">
+            <div class="concept-title">
+              Box Sizing
+            </div>
+            <div class="concept-description">
+            <p>
+              The core of the box is defined by the width and height of an element, which may be determined by the display property, by the contents of the element, or by specified width and height properties. Padding and border expand the dimensions of the box outward from the element’s width and height. Any margin specified will follow the border.
+              <br>Each part of the box model corresponds to a CSS property.
+              <br>By default the box model is additive; thus to determine the actual size of a box one needs to take into account padding, borders, and margins for all four sides of the box. <br>The width not only includes the width property value, but also the size of the left and right padding, left and right borders, and left and right margins.
+              <br>The content-box value is the default value, leaving the box model as an additive design. If the box-sizing property is not used, this will be the default value for all elements. 
+            </p>
+            <img class="displayed" src="http://www.w3.org/TR/CSS2/images/boxdim.png" alt="The Box Model">
+            </div>      
+        </div>
+        <div class="concept">
+            <div class="concept-title">
+              Box Positioning
+            </div>
+            <div class="concept-description">
+            <p>
+              Because the div tag is a block element, by default it takes the entire width of a page. In order to override this action, it is recommended to add <span class="italic">display: flex;</span> to the CSS.
+              <br>The Flexbox Layout Module aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic.
+              <br>The main idea behind the flex layout is to give the container the ability to alter its items' width, height, and order to best fill the available space, and mostly to accommodate to all kind of display devices and screen sizes. A flex container expands items to fill available free space, or shrinks them to prevent overflow.
+            </p>
+            <img class="displayed" src="http://i.stack.imgur.com/tM18j.gif" alt="Oopsie">
+            </div>      
+        </div>
+   	</div>
+</body>
+</html>
