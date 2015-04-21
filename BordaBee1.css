@@ -1,0 +1,53 @@
+h1 {
+	text-align: center;
+	color: #0A161F;
+	font-family: Helvetica;
+	font-style: normal;
+	background-color: #ECE5DF;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.lesson {
+	position: relative;
+	background-color: #ECE5DF;
+	color: #0A161F;
+	padding: 10px;
+}
+
+h2 {
+	margin: 10px;
+	font-family: Helvetica;
+	font-style: normal;
+}
+
+.concept-title {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.concept-description {
+	color: #0D1D2A;
+	font-family: Helvetica;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.italic {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.list {
+	list-style-type: circle;
+}
+
+.displayed {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
